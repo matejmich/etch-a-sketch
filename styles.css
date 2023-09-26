@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    border: solid rgb(187, 196, 109) 3px;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: rgb(202, 209, 137);
+}
+#board {
+    display: flex;
+        border: solid black 3px;
+        border-radius: 20px;
+        width: 600px;
+        height: 600px;
+        background-color: rgb(197, 216, 181);
+        padding: 3px;
+        flex-direction: column;
+        flex-shrink: 0;
+}
+.row {
+    display: flex;
+    margin: 0px;
+    flex-grow: 1;
+}
+.tile {
+    display: flex;
+    border: solid black 1px;
+    background-color: lightblue;
+    flex-grow: 1;
+}
+.others {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(10, 28, 61)
+}
+#refresh {
+    height: 50px;
+    background-color: aqua;
+}
